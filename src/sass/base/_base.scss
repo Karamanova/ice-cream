@@ -1,0 +1,46 @@
+body {
+  font-family: var(--primary-font);
+  color: var(--text-light);
+  cursor: url('./../images/cursor.png'), auto;
+
+  &:hover {
+    cursor:url('./../images/cursor.png'), auto;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    cursor:  url('./../images/cursor.png'), auto;
+  }
+}
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+button {
+  cursor: url('./../images/cursor.png'), auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
